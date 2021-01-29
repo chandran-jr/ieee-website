@@ -1668,3 +1668,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
+
+/* guideline */
+.guideline{
+  font-size: large;
+  
+}
