@@ -490,7 +490,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(6, 12, 34, 0.1);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -527,7 +527,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #00A5FF;
+  color:#fff;
 }
 
 @media (max-width: 991px) {
@@ -677,6 +677,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
+/* ------------------------------------------------------
+    Scrolling Text
+  ------------------------------------------------------ */
+  .scroll-left{
+    background-color: #004a99;
+    height: 70px;
+  }
+
+  #dalink{
+    color: #fff;
+    padding: 1rem;
+    line-height:2rem;
+  }
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
