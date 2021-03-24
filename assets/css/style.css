@@ -8,6 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
 body {
   background: #fff;
   color: #2f3138;
@@ -189,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 55px;
 }
 
 /*--------------------------------------------------------------
@@ -1673,4 +1674,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .guideline{
   font-size: large;
   
+}
+
+.committee{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px; 
 }
