@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   height: 90px;
-  padding: 25px 0;
+  padding: 15px 0;
   position: fixed;
   left: 0;
   top: 0;
@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 991px) {
   #header {
     background: rgba(6, 12, 34, 0.98);
-    height: 70px;
+    height: 80px;
     padding: 15px 0;
     transition: all 0.5s;
   }
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled, #header.header-fixed {
   background: rgba(6, 12, 34, 0.98);
-  height: 70px;
+  height: 80px;
   padding: 15px 0;
   transition: all 0.5s;
 }
@@ -193,6 +193,25 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 55px;
 }
 
+@media (max-width:650px) {
+  #header #logo img{
+    max-height: 40px;
+  }
+}
+
+@media (max-width:400px) {
+  #header #logo img{
+    max-height: 40px;
+  }
+  
+  /* #header #logo #mbcet-logo{
+    display: none;
+  } */
+
+  .mob-nav{
+    display:none;
+  }
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1678,5 +1697,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .committee{
   font-family: 'Roboto', sans-serif;
-  font-size: 20px; 
+  font-size: medium; 
+}
+
+.kerala-section{
+  display: inline;
+  color: #fff;
+  font-size: 18px;
+  white-space: nowrap;
 }
